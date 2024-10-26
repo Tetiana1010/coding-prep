@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Test coverage reports
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# MacOS and Linux files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build files
+dist/
+build/
+
+# Temporary files
+temp/
+*.tmp
+
+# Jest
+jest-test-results.json
+
+# Markdown previews or rendered files (optional if you use a tool that generates HTML previews)
+*.md.html

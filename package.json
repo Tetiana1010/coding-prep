@@ -1,0 +1,25 @@
+{
+  "name": "preparation-tasks",
+  "version": "1.0.0",
+  "description": "A collection of preparation tasks and solutions for interview preparation.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.x.x",
+    "jest": "^29.7.0",
+    "markdown-it": "^13.x.x",
+    "prettier": "^3.x.x"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}
