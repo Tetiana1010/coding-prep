@@ -39,11 +39,13 @@ h2 {
   margin-bottom: 15px;
 }
 
-#tasks ul, #resources ul {
+#tasks ul,
+#resources ul {
   list-style: none;
 }
 
-#tasks li, #resources li {
+#tasks li,
+#resources li {
   margin: 10px 0;
 }
 
