@@ -1,4 +1,4 @@
-import { babbleSort } from "../tasks/algorithms/solutions/sorting-array";
+import { babbleSort } from "../tasks/algorithms/solutions/sorting_array";
 
 test("babbleSort function exists", () => {
   expect(typeof babbleSort).toEqual("function");
