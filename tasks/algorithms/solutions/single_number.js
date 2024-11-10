@@ -1,4 +1,4 @@
-const singleNumber = function(nums) {
+export const singleNumber = function(nums) {
   for (let i = 0; i < nums.length; i++) {
     let isUnique = true;
     
