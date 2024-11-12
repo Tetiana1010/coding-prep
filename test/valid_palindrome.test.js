@@ -4,6 +4,6 @@ test("isPalindrome function exists", () => {
   expect(typeof isPalindrome).toEqual("function");
 });
 
-test("Two Sum test case", () => {
+test("isPalindrome test case", () => {
   expect(isPalindrome("dddd")).toEqual(true);
 });
